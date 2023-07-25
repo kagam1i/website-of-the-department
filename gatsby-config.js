@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Website of the best department`,
+    title: `Факультет техники, управления и цифровой инфраструктуры`,
     description: `Everything you should know about us`,
     author: `@Rey`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -36,7 +36,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
   ],

@@ -1,28 +1,16 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from 'react';
+import Layout from './layout';
 
-const Header = ({ siteTitle }) => (
-  	<header
-		style={{
-			background: `#26517C`,
-			margin: `0 auto`,
-			padding: `var(--space-4) var(--size-gutter)`,
-			display: `flex`,
-			alignItems: `center`,
-			justifyContent: `space-between`,
-		}}
-	>
-		<Link
-			to="/"
-			style={{
-				color: `#FFFFFF`,
-				fontSize: `var(--font-sm)`,
-				textDecoration: `none`,
-			}}
-		>
-			{siteTitle}
-		</Link>
-  	</header>
-)
+export const Header = ({siteTitle}) => {
+    return  <Layout>
+                {siteTitle}
 
-export default Header
+                
+
+                <button onClick={() => {
+                     alert("Ого, ты работаешь")
+                }}>Нажмите</button>
+            </Layout>
+}
+
+export default Header;

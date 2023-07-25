@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --border-radius: 4px;
   --color-text: #333;
   --color-primary: #26517C;
@@ -32,6 +32,7 @@ html {
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
+  background-color: white;
 }
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -221,4 +222,10 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
