@@ -229,3 +229,9 @@ pre tt:after {
   padding: 0;
 }
 
+header{
+  background-color: rgb(115, 172, 172);
+  display: flex;
+  max-width: 1925px;
+  min-height: 75px;
+}

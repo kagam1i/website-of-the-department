@@ -1,8 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
-import { Link } from "gatsby"
-// import { Head } from '../components/header/header'
+import { Link } from "gatsby";
 
     const HeadPart = () => (
             <Layout>
@@ -13,7 +11,6 @@ import { Link } from "gatsby"
             </Layout>
     );
 
-// export const Head = () => <Seo title="index"/>
 export default HeadPart;
 
 

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1925px;
+    max-height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 65px;
+}
+
+link{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+button{
+    display: flex;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 35px;
+    background-color: rgba(81, 102, 154, 1);
+    color: rgba(245, 245, 245, 1);
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.search{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    background: #fff;
+    border-radius: 60px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.search .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 666;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.search .icon::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border: 2px solid rgba(81, 102, 154, 1);
+    border-radius: 50%;
+    transform: translate(2px, -2px);
+}
+
+.search .icon::after{
+    position: absolute;
+    content: '';
+    height: 9px;
+    width: 2px;
+    background: rgba(81, 102, 154, 1);
+    transform: translate(-5px, 5px) rotate(45deg);
+}
+
+
+input[type ='text']{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 210px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 0;
+    z-index: 667;
+}
+
