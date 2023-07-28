@@ -233,5 +233,5 @@ header{
   background-color: rgb(115, 172, 172);
   display: flex;
   max-width: 1925px;
-  min-height: 75px;
+  max-height: 150px;
 }

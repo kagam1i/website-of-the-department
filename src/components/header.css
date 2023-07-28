@@ -32,6 +32,7 @@ button{
     color: rgba(245, 245, 245, 1);
     font-size: 18px;
     border-radius: 30px;
+    margin-left: 19px;
 }
 
 .search{
@@ -39,7 +40,7 @@ button{
     height: 40px;
     width: 250px;
     background: #fff;
-    border-radius: 60px;
+    border-radius: 30px;
     margin-left: auto;
     cursor: pointer;
 }
@@ -84,8 +85,7 @@ input[type ='text']{
     position: absolute;
     top: 0;
     left: 40px;
-    width: 210px;
-    width: 100%;
+    width: 190px;
     height: 100%;
     border: 0;
     outline: 0;
